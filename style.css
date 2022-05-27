@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+html, body {
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: hsl(217, 12%, 63%);
+}
+.container {
+    display: flex;
+    max-width: 1100px;
+}
+.container1 svg {
+    align-self: left;
+    margin-left: 20px;
+    border: 1px solid hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+.container1 {
+    margin: 100px auto;
+    width: 300px;
+    height: 400px;
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 10px;
+    padding: 30px 0;
+    background-color: hsl(213, 19%, 18%);
+}
+.container1 h2 {
+    text-align: left;
+    padding: 10px 5px 5px 15px;
+    font-size: xx-large;
+}
+.container1 p {
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+ul li {
+    display: inline-flex;
+    margin: 20px auto;
+    padding: 16px;
+    font-size:small;
+    border: 1px solid hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(213, 19%, 18%);
+}
+.review {
+    background-color: hsl(25, 97%, 53%);
+}
+.container1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 12px 30px;
+    width: 240px;
+    border: 1px solid hsl(25, 97%, 53%);
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
+/* Container 2 */
+
+.container2 {
+    margin: 100px auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid hsl(213, 19%, 18%);
+    border-radius: 10px;
+    padding: 40px 0;
+    background-color: hsl(213, 19%, 18%);  
+}
+.container2 .button {
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    margin: 15px auto;
+    padding: 10px 30px;
+    width: 200px;
+    border: 1px solid hsl(216, 12%, 54%);
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(25, 97%, 53%);
+}
+.container2 h2 {
+    text-align: center;
+    padding: 15px;
+    font-size: xx-large;
+}
+.container2 p {
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+footer a {
+    text-decoration: none;
+}
+
+/* Responsiveness starts here */
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 {
+        margin-bottom: 20px;
+    }
+}
