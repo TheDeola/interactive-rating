@@ -27,3 +27,11 @@ button.addEventListener("click", function(){
     ratingsText.innerHTML = reviewText;
     currentBtn.classList.toggle("review");
 })
+
+
+$(document).ready(function(){
+    $("#subMit").click(function(){
+        $(".container1").hide();
+        $(".container2").show();
+    })
+})
