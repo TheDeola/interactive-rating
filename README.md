@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](./Screenshot.png)
+![Mobile](./screenshot.png)
 ![Mobile](./screenshot1.png)
 ![Mobile](./screenshot2.png)
 
